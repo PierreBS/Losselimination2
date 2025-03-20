@@ -23,6 +23,8 @@ jobs:
 
     - name: Authenticate with Expo
       run: echo "EXPO_TOKEN=${{ secrets.EXPO_TOKEN }}" >> $GITHUB_ENV
+   - name: Initialize EAS project
+     run: eas init --id=$(uuidgen)
 
     - name: Start EAS Build (Android)
       run: eas build --platform android --non-interactive
