@@ -3,8 +3,10 @@
     "version": "latest"
   },
   "build": {
-    "android": {
-      "type": "apk"
+    "production": {
+      "android": {
+        "buildType": "apk"
+      }
     }
   }
 }
