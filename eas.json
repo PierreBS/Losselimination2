@@ -1,9 +1,10 @@
 {
+  "cli": {
+    "version": "latest"
+  },
   "build": {
-    "production": {
-      "android": {
-        "workflow": "managed"
-      }
+    "android": {
+      "workflow": "managed"
     }
   }
 }
