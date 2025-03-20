@@ -4,7 +4,7 @@
   },
   "build": {
     "android": {
-      "workflow": "managed"
+      "type": "apk"
     }
   }
 }
