@@ -1,11 +1,10 @@
 {
   "cli": {
-    "version": ">=1.0.0"
+    "version": "latest"
   },
   "build": {
     "production": {
       "android": {
-        "workflow": "managed",
         "buildType": "apk"
       }
     }
